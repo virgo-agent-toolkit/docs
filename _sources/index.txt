@@ -7,5 +7,5 @@ asynchronous Lua runtime.
 .. toctree::
    :maxdepth: 1
 
+   luvit
    virgo
-   faq
