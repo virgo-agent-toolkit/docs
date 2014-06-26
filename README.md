@@ -20,6 +20,6 @@ Deploy:
 ```bash
 
 <edit rst files>
-commit
+git commit
 make gh-pages
 ```
