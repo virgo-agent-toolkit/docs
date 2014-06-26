@@ -1,0 +1,1 @@
+Search.setIndex({envversion:42,terms:{sourc:1,platform:1,cross:1,asynchron:1,lua:1,written:1,runtim:1,lightweight:1,embed:1,open:1},objtypes:{},objnames:{},filenames:["virgo","index","faq"],titles:["Virgo","Virgo Agent Toolkit Documentation","FAQ"],objects:{},titleterms:{virgo:[0,1],faq:2,toolkit:1,agent:1,document:1}})
