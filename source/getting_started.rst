@@ -2,8 +2,8 @@ Getting Started
 ===============
 
 Virgo is split into a core component and a derived project. This allows for
-better code reuse. The core component is located in the `racker/virgo-base-agent`
-repository.
+better code reuse. The core component is located in the
+`virgo-agent-toolkit/virgo-base-agent`_ repository.
 
 Overview
 --------
@@ -11,7 +11,7 @@ Overview
 Compiling Hello World Agent on Linux/OSX
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In this derived project example, we are going to start out with the most basic
+In this derived project `example`_, we are going to start out with the most basic
 agent: Hello World. Virgo expects to find an 'init.lua' file and a function
 called 'run' exported from lua.  Start by running the following commands.
 
@@ -23,7 +23,7 @@ called 'run' exported from lua.  Start by running the following commands.
     ./configure
     make
 
-If everything has built correctly try running::
+If everything has built correctly try running.
 
 .. sourcecode:: bash
 
@@ -62,3 +62,6 @@ executable. You start out with one file::
 
 You can add more files to this list and use any subdirectory layout that you like.
 
+
+.. _`virgo-agent-toolkit/virgo-base-agent`: https://github.com/virgo-agent-toolkit/virgo-base-agent
+.. _`example`: https://github.com/virgo-agent-toolkit/virgo-example-agent
