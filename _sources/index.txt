@@ -19,3 +19,4 @@ footprint.  The Rackspace Monitoring Agent uses this framework and runs in about
 
    getting_started
    developer_resources
+   modules

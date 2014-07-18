@@ -63,6 +63,11 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="developer_resources.html">Developer Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#luvit-async">luvit-async</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#luvit-streams">luvit-streams</a></li>
+</ul>
+</li>
 </ul>
 
         
@@ -108,7 +113,7 @@ better code reuse. The core component is located in the
 <h3>Compiling Hello World Agent on Linux/OSX<a class="headerlink" href="#compiling-hello-world-agent-on-linux-osx" title="Permalink to this headline">¶</a></h3>
 <p>In this derived project <a class="reference external" href="https://github.com/virgo-agent-toolkit/virgo-example-agent">example</a>, we are going to start out with the most basic
 agent: Hello World. Virgo expects to find an &#8216;init.lua&#8217; file and a function
-called &#8216;run&#8217; exported from lua.  Start by running the following commands.</p>
+called &#8216;run&#8217; exported from Lua.  Start by running the following commands.</p>
 <div class="highlight-bash"><div class="highlight"><pre>git clone git@github.com:virgo-agent-toolkit/virgo-example-agent.git
 <span class="nb">cd </span>virgo-example-agent
 git submodule update --init --recursive
@@ -140,7 +145,7 @@ exports table that is returned from the module.</p>
 <p class="first admonition-title">Note</p>
 <p class="last">Please remember that everything in Lua is defaulted to the global namespace. The
 Lua keyword <cite>local</cite> is needed for practically every variable or function
-instantiation.</p>
+declaration.</p>
 </div>
 </div>
 <div class="section" id="bundle-list">
