@@ -59,6 +59,7 @@
             <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="luvit.html">Luvit</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Virgo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#compiling-virgo-hello-world">Compiling Virgo Hello World</a></li>
 </ul>
 
         
@@ -95,6 +96,25 @@
             
   <div class="section" id="virgo">
 <h1>Virgo<a class="headerlink" href="#virgo" title="Permalink to this headline">¶</a></h1>
+<p>Virgo is split into a core component and a derived project. This allows for
+better code reuse.</p>
+</div>
+<div class="section" id="compiling-virgo-hello-world">
+<h1>Compiling Virgo Hello World<a class="headerlink" href="#compiling-virgo-hello-world" title="Permalink to this headline">¶</a></h1>
+<p>In this example, we are going to start out with the most basic agent: Hello
+World. Virgo expects to find an &#8216;init.lua&#8217; file and a function called &#8216;run&#8217;
+exported from lua.  Start by running the following commands:</p>
+<div class="highlight-python"><div class="highlight"><pre>git clone git@github.com:virgo-agent-toolkit/virgo-example-agent.git
+cd virgo-example-agent
+git submodule update --init --recursive
+./configure
+make
+</pre></div>
+</div>
+<p>If everything has built correctly try running:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">out</span><span class="o">/</span><span class="n">Debut</span><span class="o">/</span><span class="n">virgo</span>
+</pre></div>
+</div>
 </div>
 
 
