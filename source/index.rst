@@ -24,7 +24,7 @@ Luvit
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 3
 
    luvit_about
    luvit_modules
@@ -34,7 +34,7 @@ Developer Information
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 3
 
    developer_resources
 
