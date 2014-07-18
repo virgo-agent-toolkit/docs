@@ -7,6 +7,7 @@ Modules
 Coalan McMahon's `async <https://github.com/caolan/async>` library.
 
 .. code-block:: lua
+
     local stream = require('async')
 
     async.forEach({1,3,2}, function(x, callback)
