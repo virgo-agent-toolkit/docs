@@ -13,7 +13,7 @@ Compiling Hello World Agent on Linux/OSX
 
 In this derived project `example`_, we are going to start out with the most basic
 agent: Hello World. Virgo expects to find an 'init.lua' file and a function
-called 'run' exported from lua.  Start by running the following commands.
+called 'run' exported from Lua.  Start by running the following commands.
 
 .. sourcecode:: bash
 
@@ -50,7 +50,7 @@ exports table that is returned from the module.
 .. note:: 
    Please remember that everything in Lua is defaulted to the global namespace. The
    Lua keyword `local` is needed for practically every variable or function
-   instantiation.
+   declaration.
 
 bundle.list
 ^^^^^^^^^^^
