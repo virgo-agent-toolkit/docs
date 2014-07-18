@@ -16,5 +16,4 @@ Resident Memory. On Windows, it runs in about 4.5 MB of memory.
 .. toctree::
    :maxdepth: 1
 
-   luvit
    virgo

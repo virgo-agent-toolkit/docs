@@ -21,3 +21,34 @@ If everything has built correctly try running::
 
     out/Debut/virgo
 
+init.lua
+--------
+
+Virgo and Luvit modules closely resemble Node.JS modules. Typically there is an
+exports table that is returned from the module::
+
+    local exports = {}
+
+    -- Main entry
+    exports.run = function()
+      print('Hello World')
+      process.exit(0)
+    end
+
+    return exports
+
+.. note:: 
+   Please remember that everything in lua is defaulted to the global namespace. The
+   Lua keyword `local` is needed for practically every variable or function
+   instantiation.
+
+bundle.list
+-----------
+
+This file in the project adds files to a zip file embedded within the
+executable. You start out with one file::
+
+    ./init.lua
+
+You can add more files to this list and use any subdirectory layout that you like.
+
