@@ -18,5 +18,13 @@ footprint.  The Rackspace Monitoring Agent uses this framework and runs in about
    :glob:
 
    getting_started
+
+Developer Information
+---------------------
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
    modules
    developer_resources
