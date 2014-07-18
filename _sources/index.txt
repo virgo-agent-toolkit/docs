@@ -14,6 +14,7 @@ The Rackspace Monitoring Agent uses this framework and runs in about 6 MB of
 Resident Memory. On Windows, it runs in about 4.5 MB of memory.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
+   :glob:
 
-   virgo
+   getting_started
