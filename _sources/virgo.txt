@@ -2,14 +2,15 @@ Virgo
 =====
 
 Virgo is split into a core component and a derived project. This allows for
-better code reuse.
+better code reuse. The core component is located in the `racker/virgo-base-agent`
+repository.
 
-Compiling Virgo Hello World
----------------------------
+Compiling Virgo Hello World on Linux/OSX
+----------------------------------------
 
-In this example, we are going to start out with the most basic agent: Hello
-World. Virgo expects to find an 'init.lua' file and a function called 'run'
-exported from lua.  Start by running the following commands::
+In this derived project example, we are going to start out with the most basic
+agent: Hello World. Virgo expects to find an 'init.lua' file and a function
+called 'run' exported from lua.  Start by running the following commands::
 
     git clone git@github.com:virgo-agent-toolkit/virgo-example-agent.git
     cd virgo-example-agent
@@ -38,7 +39,7 @@ exports table that is returned from the module::
     return exports
 
 .. note:: 
-   Please remember that everything in lua is defaulted to the global namespace. The
+   Please remember that everything in Lua is defaulted to the global namespace. The
    Lua keyword `local` is needed for practically every variable or function
    instantiation.
 

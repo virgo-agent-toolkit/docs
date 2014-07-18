@@ -58,7 +58,7 @@
         
             <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="">Virgo</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#compiling-virgo-hello-world">Compiling Virgo Hello World</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#compiling-virgo-hello-world-on-linux-osx">Compiling Virgo Hello World on Linux/OSX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#init-lua">init.lua</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#bundle-list">bundle.list</a></li>
 </ul>
@@ -100,12 +100,13 @@
   <div class="section" id="virgo">
 <h1>Virgo<a class="headerlink" href="#virgo" title="Permalink to this headline">¶</a></h1>
 <p>Virgo is split into a core component and a derived project. This allows for
-better code reuse.</p>
-<div class="section" id="compiling-virgo-hello-world">
-<h2>Compiling Virgo Hello World<a class="headerlink" href="#compiling-virgo-hello-world" title="Permalink to this headline">¶</a></h2>
-<p>In this example, we are going to start out with the most basic agent: Hello
-World. Virgo expects to find an &#8216;init.lua&#8217; file and a function called &#8216;run&#8217;
-exported from lua.  Start by running the following commands:</p>
+better code reuse. The core component is located in the <cite>racker/virgo-base-agent</cite>
+repository.</p>
+<div class="section" id="compiling-virgo-hello-world-on-linux-osx">
+<h2>Compiling Virgo Hello World on Linux/OSX<a class="headerlink" href="#compiling-virgo-hello-world-on-linux-osx" title="Permalink to this headline">¶</a></h2>
+<p>In this derived project example, we are going to start out with the most basic
+agent: Hello World. Virgo expects to find an &#8216;init.lua&#8217; file and a function
+called &#8216;run&#8217; exported from lua.  Start by running the following commands:</p>
 <div class="highlight-python"><div class="highlight"><pre>git clone git@github.com:virgo-agent-toolkit/virgo-example-agent.git
 cd virgo-example-agent
 git submodule update --init --recursive
@@ -135,7 +136,7 @@ return exports
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Please remember that everything in lua is defaulted to the global namespace. The
+<p class="last">Please remember that everything in Lua is defaulted to the global namespace. The
 Lua keyword <cite>local</cite> is needed for practically every variable or function
 instantiation.</p>
 </div>
