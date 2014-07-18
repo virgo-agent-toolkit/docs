@@ -1,5 +1,5 @@
-Modules
-=======
+Luvit Modules
+=============
 
 `luvit-async`_
 --------------
