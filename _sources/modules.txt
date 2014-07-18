@@ -4,7 +4,7 @@ Luvit Modules
 `luvit-async`_
 --------------
 
-Coalan McMahon's `async <https://github.com/caolan/async>` library.
+Coalan McMahon's `async <https://github.com/caolan/async>`_ library.
 
 .. code-block:: lua
 
