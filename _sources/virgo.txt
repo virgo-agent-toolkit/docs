@@ -1,11 +1,11 @@
 Virgo
-=====
+#####
 
 Virgo is split into a core component and a derived project. This allows for
 better code reuse.
 
 Compiling Virgo Hello World
-===========================
+###########################
 
 In this example, we are going to start out with the most basic agent: Hello
 World. Virgo expects to find an 'init.lua' file and a function called 'run'
