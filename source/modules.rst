@@ -50,5 +50,36 @@ Stream interface in Luvit.
 
     Numbers:new(9):pipe(process.stdout)
 
+`luvit-stream-fs`_
+------------------
+
+Filesystem Stream Library
+
+`luvit-resolve`_
+----------------
+
+Pure luvit implementation of the luvit require() path logic
+
+`luvit-tape`_
+-------------
+
+Test Suite for Luvit using stream2 interface
+
+`luvit-bourbon`_
+----------------
+
+Older test framework based on Node.JS Whiskey.
+
+`luvit-keystone`_
+-----------------
+
+Openstack Keystone Client for Luvit
+
 .. _`luvit-stream`: https://github.com/virgo-agent-toolkit/luvit-stream
 .. _`luvit-async`: https://github.com/virgo-agent-toolkit/luvit-async
+.. _`luvit-resolve`: https://github.com/virgo-agent-toolkit/luvit-resolve
+.. _`luvit-stream-fs`: https://github.com/virgo-agent-toolkit/luvit-stream-fs
+.. _`luvit-template-stream`: https://github.com/virgo-agent-toolkit/luvit-template-stream
+.. _`luvit-tape`: https://github.com/virgo-agent-toolkit/luvit-tape
+.. _`luvit-bourbon`: https://github.com/virgo-agent-toolkit/luvit-bourbon
+.. _`luvit-keystone`: https://github.com/virgo-agent-toolkit/luvit-keystone

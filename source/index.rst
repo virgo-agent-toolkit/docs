@@ -18,5 +18,5 @@ footprint.  The Rackspace Monitoring Agent uses this framework and runs in about
    :glob:
 
    getting_started
-   developer_resources
    modules
+   developer_resources
