@@ -19,6 +19,16 @@ footprint.  The Rackspace Monitoring Agent uses this framework and runs in about
 
    getting_started
 
+Luvit
+-----
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   luvit_about
+   luvit_modules
+
 Developer Information
 ---------------------
 
@@ -26,7 +36,6 @@ Developer Information
    :glob:
    :maxdepth: 1
 
-   modules
    developer_resources
 
 .. note::
