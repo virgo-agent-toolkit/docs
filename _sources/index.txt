@@ -38,6 +38,15 @@ Developer Information
 
    developer_resources
 
+Development
+---------------------
+
+.. toctree::
+   :glob:
+   :maxdepth: 3
+
+   development
+
 .. note::
 
     Unless noted otherwise, all of the examples and code snippets in the
