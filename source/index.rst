@@ -29,23 +29,16 @@ Luvit
    luvit_about
    luvit_modules
 
-Developer Information
----------------------
-
-.. toctree::
-   :glob:
-   :maxdepth: 3
-
-   developer_resources
-
 Development
----------------------
+-----------
 
 .. toctree::
    :glob:
    :maxdepth: 3
 
    development
+   api/index
+   developer_resources
 
 .. note::
 
